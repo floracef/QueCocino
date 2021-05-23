@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Recetario</title>
+</head>
+<body>
+    <header>
+        <div class="marca"></div>
+        <img class="logo" src="../imagenes/logo_white.PNG" alt="logo_white">
+        <nav class="menu_principal">
+            <ul>
+                <li><a href="../index.html">Home</a> </li>
+                <li><a href="cocinar.html" target="_self">Receta de la Semana</a></li>
+                <li>Recetario</li>
+                <li><a href="comprar.html" target="_self">Sustituir ingredientes</a> </li>
+                <li><a href="cursos.html" target="_self">Cursos de Cocina</a> </li>
+                <li><a href="contacto.html" target="_self">Contacto</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="contenido_principal">
+        <h1 class="titulo_principal"> Recetario</h1>
+        <div class="container">
+        <script type="text/javascript" src="../js/slideshow.js"></script>"
+        <div class="slideshow">
+            <a href="https://www.youtube.com/watch?v=rv-elhpMoWk&ab_channel=MaxiCocina" target="_blank">
+                <img src="../imagenes/croquetas.jpg" style="width:70%" style="max-height:30%";>
+            </a>
+        </div>
+        <div class="slideshow">
+            <a href="https://www.youtube.com/watch?v=WHvIPubruOQ&ab_channel=CocinaParaTodos" target="_blank">
+                <img src="../imagenes/tequenos.jpg" style="width:76%"style="max-height:30%";>
+            </a>
+        </div>
+        <div class="slideshow">
+            <a href="https://www.youtube.com/watch?v=1XUtzgyPyFY&ab_channel=JavierRomero" target="_blank">
+                <img src="../imagenes/pollo_a_la_mostaza.jpg" style="width:62%"style="max-height:30%";>
+            </a>
+        </div>
+        <div class="slideshow">
+            <a href="https://www.youtube.com/watch?v=xqni38Jom3Y&ab_channel=AndreaMoralesAndreaMorales" target="_blank">
+                <img src="../imagenes/barritas.jpg" style="width:75%"style="max-height:30%";>
+            </a>
+        </div>
+        <div class="slideshow">
+            <a href="https://www.youtube.com/watch?v=n5hk7H39MDg&ab_channel=MatiasChaveroMatiasChavero" target="_blank">
+                <img src="../imagenes/lemon_cookies.jpg" style="width:68%"style="max-height:30%";>
+            </a>
+        </div>
+        <div class="slideshow">
+            <a href="https://www.youtube.com/watch?v=gVmbPbBdmFM&ab_channel=MisPastelitosMisPastelitosVerified" target="_blank">
+                <img src="../imagenes/rainbow.jpg" style="width:65%"style="max-height:30%";>
+            </a>
+        </div>
+        <a class="prev" onclick="slider(-1)">&#10094;</a>
+        <a class="next" onclick="slider(1)">&#10095;</a>
+        <div class="caption-box">
+            <p id="caption"></p>
+        </div>
+        <div class="slideshow-row">
+            <div class="icon">
+                <img class="recipe" src="../imagenes/croquetas.jpg" style="width:90%"  onclick="currentSlide(1)" alt="Croquetas de Espinaca">
+            </div>
+            <div class="icon">
+                <img class="recipe" src="../imagenes/tequenos.jpg" style="width:90%"  onclick="currentSlide(2)" alt="Tequeños Venezolanos">
+            </div>
+            <div class="icon">
+                <img class="recipe" src="../imagenes/pollo_a_la_mostaza.jpg" style="width:90%"  onclick="currentSlide(3)" alt="Pollo a la Mostaza con Papas al Horno">
+            </div>
+            <div class="icon">
+                <img class="recipe" src="../imagenes/barritas.jpg" style="width:90%"  onclick="currentSlide(4)" alt="Barritas de Cereal y Yogurt">
+            </div>
+            <div class="icon">
+                <img class="recipe" src="../imagenes/lemon_cookies.jpg" style="width:90%"  onclick="currentSlide(5)" alt="Galletitas Rellenas con Crema de Limón">
+            </div>
+            <div class="icon">
+                <img class="recipe" src="../imagenes/rainbow.jpg" style="width:90%"  onclick="currentSlide(6)" alt="Batidos Arcoiris">
+            </div>
+        </div>
+    </div> 
+    </section>
+    <footer>
+        <div class="datos">
+            <p>Dirección:Av. Cabildo 3915 - CABA</p>
+            <p>Teléfono: 4796-5555</p>
+            <p>info@quecocino.com</p>
+        </div>
+        <div class="redes">
+            <a href="https://www.facebook.com/cocinafacilmx/" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/cocina_facil_mx?lang=en#:~:text=Cocina%20F%C3%A1cil%20(%40cocina_facil_mx)%20%7C%20Twitter" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/cocinafacil/?hl=en" class="fa fa-instagram"></a>
+            <a href="https://www.youtube.com/channel/UC9k6Fgn2_4sMUa8OFwaIwPA" class="fa fa-youtube"></a>
+            <a href="https://www.pinterest.com.mx/pin/31947478583713848/" class="fa fa-pinterest"></a>
+        </div>
+    </footer>
+</body>
+</html>
