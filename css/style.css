@@ -441,6 +441,424 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
 }
 /*RESPONSIVE*/
+/*RESPONSIVE desde 1365 a 1024PX*/
+@media all and (min-width: 1024px) and (max-width:1365px){
+    
+    body{
+        margin-left: 0px;
+        background-repeat:repeat
+    }
+    header{
+    width: 100%;
+    height: 10px;
+    margin-left: 0px;
+    margin-right: auto;
+    display: flex;
+    align-items: left;
+    }
+
+    header .menu_principal{
+        flex-grow: 1;
+        width:50%;
+        margin-left: 0px;
+    }
+    p{
+    font-size: 13px;
+    }
+    .marca{
+    float: none; 
+    width: 5%;
+    margin-left: 0%;
+    }
+    .logo{
+        width:150px;
+        height:150px;
+        border-style:solid;
+        border-color: black;
+        
+    }
+    .logo2{
+        width: 150px;
+        height:150px;
+        border-style:solid;
+        border-color: whitesmoke;
+    }
+    .menu_principal{
+    width: 100%;
+    float: none; 
+    margin-left:0px;    
+    }
+    .menu_principal ul li a{
+    display:block;
+    padding: 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-left: 0%;
+    }
+    .menu_principal ul li{
+    display:  inline-block;
+    font-weight:bold; 
+    margin-left: 0%;
+    }
+    .contenido_principal{
+    width: 1000px;
+    height: 900px;	 
+    margin-top: 230px;
+    margin-left: 0%;
+    max-width: 1024px;
+    }
+    .presentacion{
+        width: 100%;
+        height:800px;
+        float: none;
+        margin-bottom: 10px;
+        padding: 10px;
+        max-width: 950px;
+    }
+    .titulo_principal{
+        font-family: 'Indie Flower', cursive;
+        font-size: 40px;
+        text-align: center;
+        line-height: 180%;
+        background-color: #000000;
+        color: whitesmoke;
+        margin-top: 100px;
+        width:100%;
+    }
+    .contenido_articulo {
+        font-family: 'Indie Flower', cursive;
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 150%;
+        width:100%;
+        text-align: justify;
+        margin-left:120px;
+        max-width: 850px;
+    }
+    .contenido_articulo3 {
+        font-family: 'Indie Flower', cursive;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 200%;
+        width:100%;
+        text-align: justify;
+        margin-left:120px;
+        max-width: 790px;
+        margin-bottom: 0%;
+    }
+    .list{
+    font-family: 'Indie Flower', cursive;
+    font-weight: 800;
+    font-size: 27px;
+    line-height: 180%;
+    width:100%;
+    margin-left: 120px;
+    max-width: 780px;
+    background-color: whitesmoke;
+    }
+    .contenido_articulo2{
+        font-family: 'Indie Flower', cursive;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 150%;
+        width:100%;
+        text-align: center;
+        margin-left:120px;
+        color:rgb(68, 197, 42) ;
+        margin-bottom: 50px;
+        background-color: black;
+        display: flexbox;
+        max-width: 400px;
+        }
+    footer{
+        width: 100%;
+        background-color: #000000;
+        margin-left:0%;
+        margin-right: 0%;
+        margin-top: 100px;
+        color: #FFFFFF;
+        height: 180px;
+        display: flexbox;
+        }
+        
+        .datos{
+        width: 300px;
+        height: 180px;
+        float: left;
+        padding: 20px;
+        box-sizing: border-box;
+        }
+        .fa {
+            padding: 15px;
+            font-size: 28px;
+            width: 40px;
+            text-align: center;
+            text-decoration: none;
+            float: right;
+        }
+        .fa:hover {
+            opacity: 0.7;
+        }
+        
+    /*Receta de La semana*/
+    .cake{
+        border-style:solid;
+        border-color: black;
+        display: table;
+        float: left;
+        margin-bottom: 0%;
+        max-width: 450px;
+        max-height: 450px;
+    }
+    figure {
+        display: flex;
+        flex-flow: column;
+        padding: 5px;
+        margin: auto;
+        float: left;
+    }
+    figcaption{
+        line-height:normal;
+        font-size:17px;
+        display:table-caption;
+        background:#646464;
+        color:white;
+        font-style:italic;
+        font-family:'Raleway', sans-serif;
+        text-align:center;
+        max-width: 555px;
+    }
+    /* Ingredientes y Preparación*/
+    .ingredients{
+        margin-left: 150px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+        font-size: 38px;
+        display:block;
+        margin-top: 0%;
+        margin-right: 150px;
+        max-width: 450px;
+        float:left;
+    }
+    .ingredients ul li {
+        text-align: left;
+        padding: 3px;
+        font-family: 'Raleway', sans-serif;
+        font-size:19px;
+        display:list-item;
+        margin-left: 20px;
+        max-width:450px;
+        float: left;
+    
+    }
+    .ingredients ul{
+        margin-left: 20px;
+        display:grid; 
+        }
+    
+    .preparation{
+        margin-left: 150px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+        font-size: 38px;
+        display:block;
+        margin-top: 20px;
+    
+    }
+    .preparation ol{
+        margin-left: 20px;
+        display:grid; 
+    }
+    .preparation ol li {
+        text-align: left;
+        padding: 3px;
+        font-family: 'Raleway', sans-serif;
+        font-size:19px;
+        display:list-item;
+        margin-left: 20px;
+    }
+    
+    /*Slideshow*/
+    .container {
+        position: relative;
+        margin-top: 5px;
+    }
+    .slideshow {
+        display: none;
+        margin-left: 100px;
+    }
+    .cursor {
+        cursor: pointer;
+    }
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        width: auto;
+        padding: 15px;
+        margin-top: -50px;
+        color:black;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+    }
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    .prev:hover, .next:hover {
+        background-color:rgb(68, 197, 42);
+    }
+    .caption-box {
+        text-align: center;
+        background-color: black;
+        padding: 2px 16px;
+        color: white;
+        font-size: 30px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .slideshow-row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .icon {
+        float: left;
+        width: 16.66%;
+    }
+    .recipe {
+        opacity: 0.7;
+    }
+    .active, .recipe:hover {
+        opacity: 1;
+    }
+    /*Tabla*/
+    table, th, td {
+        border: 3px solid black;
+        margin-left: 150px;
+        border-collapse: collapse;
+        text-align: center;
+        padding: 12px;
+        font-family: 'Raleway', sans-serif;
+        font-weight:bold;
+        font-size: 18px;
+    }
+    th {
+        background-color:rgb(68, 197, 42);
+        color: white;
+    }
+    tr:hover {
+        color:whitesmoke; 
+        background-color:black;
+        font-weight: bolder;
+        text-decoration: underline; 
+        opacity: 0.5;
+    }
+    
+    /*Cursos*/
+    .courses{
+        margin-left: 150px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+        font-size: 38px;
+        display:block;
+        margin-top: 0%;
+        max-width: 800px;
+        background-color:none;
+        animation-name: example;
+        animation-duration: 10s;
+    }
+    .courses ul li {
+        text-align: left;
+        padding: 10px;
+        font-family: 'Raleway', sans-serif;
+        font-size:38px;
+        display:list-item;
+        margin-left: 20px;
+        max-width:800px;
+    }
+    @keyframes example {
+        0%   {background-color:whitesmoke;}
+        33%  {background-color:rgb(68, 197, 42)}
+        66%  {background-color: whitesmoke;}
+        100% {background-color:rgb(68, 197, 42);}
+    }
+    .courses ul li a:visited { 
+        color:black; 
+    }
+    .courses ul li:hover{
+        background-color: rgb(68, 197, 42);
+        text-decoration: underline;
+        opacity: 0.7;
+    }
+    /* Form */
+    form{
+        width: 80%;
+        border: 5px solid black;
+        margin-left: 150px;
+    }
+    form ul{
+        list-style-type: none;
+    }
+    label{
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 20px;
+        width:200px
+    }
+    input{
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+    }
+    input[type=text]{
+        width: 65%;
+        padding: 8px;
+        border: 2px solid black;
+        margin: 10px 0;
+    }
+    input[type=text]:focus {
+        border: 5px solid rgb(68, 197, 42);
+    }
+    input[type=email]{
+        width: 65%;
+        padding: 8px;
+        border: 2px solid black;
+        margin: 10px 0;
+    }
+    input[type=email]:focus {
+        border: 5px solid rgb(68, 197, 42);
+    }
+    textarea {
+        width: 60%;
+        height: 250px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid black;
+        border-radius: 4px;
+        resize: none;
+        margin-left: 150px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 12px;
+    }
+    textarea:focus{
+        border: 5px solid rgb(68, 197, 42);
+    }
+    input[type=submit], input[type=reset] {
+        background-color: rgb(68, 197, 42);
+        color: whitesmoke;
+        padding: 10px 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+        float: right;
+    }
+    input[type=submit]:hover, input[type=reset]:hover{
+        opacity: 0.7;
+    }
+
+}   /*fin de media  de 1365 a 1024px*/
 /*RESPONSIVE HASTA 1023PX*/
 @media all and (min-width: 600px) and (max-width:1023px){
     
